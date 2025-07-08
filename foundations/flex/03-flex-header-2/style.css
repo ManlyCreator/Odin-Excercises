@@ -10,10 +10,17 @@ body {
 
 .header {
   display: flex;
+  justify-content: space-between;
   padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+/* Left Container */
+.left-container {
+  display: flex;
+  gap: 16px;
 }
 
 .logo {
@@ -25,7 +32,14 @@ body {
 
 .links {
   display: flex;
-  gap: 8px;
+  gap: 16px;
+}
+
+/* Right Container */
+.right-container {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
 }
 
 .profile-image {
