@@ -17,9 +17,9 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
-/* Left Container */
-.left-container {
+.left-container, .right-container {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
 
@@ -33,13 +33,6 @@ body {
 .links {
   display: flex;
   gap: 16px;
-}
-
-/* Right Container */
-.right-container {
-  display: flex;
-  gap: 16px;
-  padding: 8px;
 }
 
 .profile-image {
